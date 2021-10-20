@@ -21,7 +21,12 @@ html {
   height: 100%;
   perspective: 900;
   overflow-y: scroll;
-  background-color: #dce7eb;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
   font-family: "Titillium Web", sans-serif;
   color: rgba(48, 69, 92, 0.8);
 }
@@ -30,15 +35,12 @@ body {
   min-height: 0;
   display: inline-block;
   position: relative;
+  top: 350px;
   left: 50%;
   margin: 90px 0;
   transform: translate(-50%, 0);
   box-shadow: 0 10px 0 0 #ff6873 inset;
-  background-image: url("./background.png");
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  background-color: black;
+  background-color: #fefffa;
   max-width: 450px;
   padding: 30px;
 }
@@ -58,6 +60,7 @@ h1, h2 {
 }
 
 h1 {
+  text-align: center;
   text-transform: uppercase;
   font-size: 36px;
   line-height: 42px;
