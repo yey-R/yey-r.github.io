@@ -38,8 +38,8 @@ body {
   left: 50%;
   margin: 90px 0;
   transform: translate(-50%, 0);
-  box-shadow: 0 10px 0 0 rgb(255, 104, 115, 0.92) inset;
-  background-color: rgb(254, 255, 250, 0.92);
+  box-shadow: 0 10px 0 0 rgb(255, 104, 115, 0.90) inset;
+  background-color: rgb(254, 255, 250, 0.90);
   max-width: 450px;
   padding: 30px;
 }
