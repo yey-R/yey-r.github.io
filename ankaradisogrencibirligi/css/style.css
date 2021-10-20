@@ -21,14 +21,20 @@ html {
   height: 100%;
   perspective: 900;
   overflow-y: scroll;
+  overflow-x: hidden;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-color: black;
   font-family: "Titillium Web", sans-serif;
   color: rgba(48, 69, 92, 0.8);
+}
+@media (min-height: 1480px) {
+  html {
+    background-size: contain;
+  }
 }
 
 body {
